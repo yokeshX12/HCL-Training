@@ -1,3 +1,4 @@
+# Given an array containing only 0,1 and 2 sort without using an built-in function
 arr = [2, 0, 1, 2, 1, 0]
 
 low = 0
