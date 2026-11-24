@@ -1,3 +1,4 @@
+# Given an array and integer k ,Rotate the array to the right by K steps.  
 class solution:
     def rotate(self,arr,k):
         n = len(arr)
