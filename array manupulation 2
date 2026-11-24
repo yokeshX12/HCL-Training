@@ -1,0 +1,14 @@
+class solution:
+    def rotate(self,arr,k):
+        n = len(arr)
+        k= k % n
+        temp=[0]*n
+        for i in range(n):
+            temp[(i+k)% n] = arr[i]
+        return temp
+
+arr = [1,2,3,4,5]
+k=2
+
+obj = solution()
+print(obj.rotate(arr,k))
